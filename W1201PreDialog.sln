@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W1201PreDialog", "W1201PreDialog\W1201PreDialog.csproj", "{B2684BF3-71DB-4532-877A-D87D75E86A73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2684BF3-71DB-4532-877A-D87D75E86A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2684BF3-71DB-4532-877A-D87D75E86A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2684BF3-71DB-4532-877A-D87D75E86A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2684BF3-71DB-4532-877A-D87D75E86A73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F121F8F6-05F4-48D8-81B9-D612C79F3B7C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<Window x:Class="W1201PreDialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:W1201PreDialog"
+        mc:Ignorable="d"
+        Title="건담" Height="450" Width="800">
+    <Border Padding="5">
+        <DockPanel>
+            <Button Content="MS 추가" 
+                    Margin="10" 
+                    DockPanel.Dock="Top" 
+                    Click="OnAdd"/>
+            <TextBox x:Name="Result"
+                     IsReadOnly="True"
+                     AcceptsReturn="True"
+                     VerticalScrollBarVisibility="Auto"
+                     Background="#eee"
+                     DockPanel.Dock="Bottom"/>
+        </DockPanel>
+    </Border>
+</Window>
